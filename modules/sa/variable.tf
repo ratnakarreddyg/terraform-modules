@@ -9,3 +9,7 @@ variable "saloc" {
 variable "rgname" {
         description     = "Name of Resource Group"
 }
+
+variable "contname" {
+	description	= "Storage Account name"
+}

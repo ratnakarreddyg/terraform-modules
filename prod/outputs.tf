@@ -9,3 +9,7 @@ output "vnetname" {
 output "saname" {
 	value = module.samodule.saname
 }
+
+output "sacontname" {
+	value = module.samodule.sacname
+}

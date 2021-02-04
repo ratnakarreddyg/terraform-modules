@@ -17,4 +17,6 @@ module "samodule" {
 	name		= "tfstorageacc2021"			# only consist of lowercase letters and numbers
 	rgname		= module.rgmodule.rgname
 	saloc		= "east us"	
+	contname	= "tfstoragecontainer2021"
 }
+
