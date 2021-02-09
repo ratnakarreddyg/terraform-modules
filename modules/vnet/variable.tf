@@ -9,3 +9,8 @@ variable "vnetloc" {
 variable "rgname" {
 	description	= "Name of Resource Group"
 }
+
+variable "subnetname" {
+	description	= "Name of the Subnet"
+}
+

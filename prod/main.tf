@@ -1,6 +1,6 @@
 module "rgmodule" {
 	source		= "../modules/rg"
-	rgname		= "TFResourceGroup2021"
+	rgname		= "rg-TFResourceGroup2021"
 	location	= "east us"
 	
 }
@@ -10,6 +10,7 @@ module "vnetmodule" {
 	vnetname	= "TFVnet2021"
         rgname		= module.rgmodule.rgname
 	vnetloc		= "east us"
+        subnetname	= "TFSubnet2021"
 }
 
 module "samodule" {
